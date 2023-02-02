@@ -61,6 +61,11 @@ background-color: orange;
 color: black;
 }
 
+#operacao:hover{
+  background-color: orange;
+  color: black;
+  }
+
 #formulario{
   padding-right: 20px;
   padding-bottom: 20px;

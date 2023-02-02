@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operações Bancárias</title>
+    <link rel="stylesheet" href="operacoes.css" />
+    <script src="banco.js"></script>
+    <link rel="icon" type="image/x-icon" href="Elementos/Favicon.png" />
+  </head>
+  <body>
+    <h1>Operações Bancárias:</h1>
+    <form id = "formulario">
+      <div>
+        <label for="conta">Número da conta bancária:<br /></label>
+        <input type="text" id="conta" />
+      </div>
+      <br>
+      <div>
+        <label for="conta">Operação:<br /></label>
+        <select name="operacao" id = operacao>
+          <option value="valor0">Escolha a operação</option>
+          <option value="valor1">Saque</option>
+          <option value="valor2">Depósito</option><br>
+          <option value="valor3">Consulta de Saldo</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="valor">Valor:<br /></label>
+        <input type="text" id="valor" />
+      </div>
+      <br>
+      <div>
+        <label for="senhaOp">Senha:<br /></label>
+        <input type="text" id="senhaOp" />
+      </div>
+      <br>
+      <button id="enviar">Confirmar</button>
+      <button id="limpar">Limpar</button>
+    </form>
+  </body>
+</html>
